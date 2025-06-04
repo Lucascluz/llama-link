@@ -1,0 +1,22 @@
+{
+	"recommendations": [
+		// Tauri & Rust
+		"tauri-apps.tauri-vscode",
+		"rust-lang.rust-analyzer",
+		"esbenp.prettier-vscode",
+		"dbaeumer.vscode-eslint",
+		"dsznajder.es7-react-js-snippets",
+
+		// Python (Unsloth/LLM)
+		"ms-python.python",
+		"ms-toolsai.jupyter", // If using notebooks
+		"VisualStudioExptTeam.vscodeintellicode", // AI-assisted Python
+
+		// Utilities
+		"GitHub.copilot", // Optional but helpful for LLM work
+		"eamodio.gitlens"
+	],
+	"unwantedRecommendations": [
+		"vscode.typescript-language-features" // If not using TypeScript
+	]
+}
